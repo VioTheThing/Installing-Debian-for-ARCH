@@ -159,10 +159,10 @@ for our purposes, it is [Gamemaker-beta-bin](https://aur.archlinux.org/packages/
 - .deb files are specifically made to run on **UBUNTU** distributions, while Arch Linux runs, well, **ARCH**.
 
 ##      I've found an easier way to do [X]!
-- Great! Make your own Repository and update us here.
+- Great! If you want to, you can open an issue or a pull request.
 
 ##      "You can do [X] way easier if you do it with [Y]!"
-- Cool! Make your own Repository and update us here.
+- Cool! If you want to, you can open an issue or a pull request.
 
 ##      "Can you help me with [XY]?"
-- No.
+- Sadly I cannot. I am not an expert on this field and just share my knowledge on how this worked for me. I cannot assist, due to significant diifferences from OS to OS.
