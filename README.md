@@ -57,7 +57,7 @@ for our purposes, it is [Gamemaker-beta-bin](https://aur.archlinux.org/packages/
 
 #      METHOD 2
 > [!NOTE]
->  Let's assume the Debian package hasn't been repackaged as an Arch package in AUR yet.
+>  Let's assume the Debian package hasn't been repackaged as an .PKG in AUR yet.
 
 > [!IMPORTANT]
 > While there is nothing bad that can **HARM** your computer using this Method, I cannot guarantee that this will work 100%.
@@ -109,54 +109,11 @@ for our purposes, it is [Gamemaker-beta-bin](https://aur.archlinux.org/packages/
       `sudo pacman -U GameMaker-Beta-2024.1400.0.849.PKG`
 
 > [!NOTE]
-> This should now install GameMaker.
-
-
-#      METHOD 3 (NOT RECOMMENDED)
-> [!CAUTION]
-> This method attempts to install the package using the debian packaging format on Arch, which is not recommended due to possible danger of corrupting your installation. **If using this method it is recommended to be ready with a rescue disc image of Arch & backup of the user data/space. YOU HAVE BEEN WARNED.**
-
-> [!TIP]
-> What do I need for this?
-- yay
-- dpkg
-
-> [!WARNING]
-> On a serious note; the **general consensus** with using **DPKG** is:
-> **It most probably won´t work and you really shouldn´t do it, unless you know what you do. And even then, don´t do it.**
-
-###      1. Download your desired .debian file.
-> [!NOTE]
-> For our purposes, this is the latest, official GameMaker debian file.  the current Gamemaker debian file is **`GameMaker-Beta-2024.1400.0.849.deb`**. The Version number will be different than yours, so please check first.
-
-###      2. Install yay using pacman.
-      `sudo pacman -S yay`
-> [!NOTE]
-> yay is an AUR helper used to query & install AUR packages. In case the debian package has already been repackaged and published to the AUR by someone else.
-
-###      3. Install dpkg using yay.
-      `yay -S dpkg`
-
-###      4. Install the .deb file using dpkg
-
-> [!NOTE]
-> Raw Command:
-
-      ` sudo dpkg -i package_name.deb`
-> [!NOTE]
-> For our purposes:
-
-      `sudo dpkg -i GameMaker-Beta-2024.1400.0.849.deb`
-
-> [!NOTE]
-> This should now install your desired .debian.
-      
-
-
+> This should now install your desired debian.
 
 #      FAQ
 ##      Why can i not use the .deb file directly in Arch Linux?
-- .deb files are specifically made to run on **UBUNTU** distributions, while Arch Linux runs, well, **ARCH**.
+- .deb files are specifically made to run on **DEBIAN** distributions.
 
 ##      I've found an easier way to do [X]!
 - Great! If you want to, you can open an issue or a pull request.
