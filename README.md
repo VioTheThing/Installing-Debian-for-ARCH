@@ -1,4 +1,4 @@
-#      Repacking-Debian-for-ARCH
+#      Installing-Debian-for-ARCH
 
 | Mind helping out a small, Indie Developer? You can help with as much as [tipping to buy a coffee!](https://ko-fi.com/hikkz) |
 |      :---:      |
