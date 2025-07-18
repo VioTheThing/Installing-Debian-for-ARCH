@@ -4,7 +4,7 @@
 |      :---:      |
 
 **Hi There!**
-You've come here because the software you so darely need on your Arch computer only exists as a .deb, yes? Well fear no more, As I'll show you how to repackage this .Deb for Arch!
+You've come here because the software you so darely need on your Arch computer only exists as a .deb, yes? Well fear no more, As I'll show you how to Install this .Deb for Arch!
 
 ##      What do I need prior to this?
 All you need is;
